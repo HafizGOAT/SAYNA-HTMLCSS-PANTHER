@@ -270,9 +270,14 @@ main .panther_section{
   text-align: center;
   margin-top: 110%;
 }
+main .form_section {
+  margin-top: 20px; 
+  padding: 20px; /* Ajoutez du padding pour espacer le formulaire */
+  background-color: var(--sixthColor); /* Si vous souhaitez un fond distinct pour le formulaire */
+}
 main .form_section{
   background-image: url('../Assets/Accueil/Pantherhome7.png');
-  margin-top: -40%;
+  margin-top: -20%;
   background-size: contain;
   width: 100%;
   height: 100vh;
@@ -380,9 +385,11 @@ footer .marvel_side:hover{
 }
 footer .sayna_footer{
   position: relative;
-  left:-55%;
-  top: -50%;
+  margin-bottom: 30px;
+  left:0;
+  top: 0;
 }
+
 footer .policy{
   position: relative;
   color: var(--whiteColor);
